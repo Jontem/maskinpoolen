@@ -1,0 +1,293 @@
+body {
+	background-image:url('images/static/background.png');
+	font-family: "Helvetica";
+	font-size: 11pt;
+	color: white;
+}
+
+#header {
+	width: 960px;
+	height: 200px;
+	margin: auto;
+	background-image:url('images/static/huvudtraktor.png');
+	background-position: -25px;
+}
+
+#outerMenuDiv {
+	background-image:url('images/static/body.jpg');
+	background-repeat:no-repeat;
+	margin: auto;
+	width: 960px;
+	height: 415px;
+}
+
+#menuDiv {
+	margin-top: -20px;
+	width: 960px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menuDiv ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#menuDiv li {
+	float: left;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	margin-left: 0px;
+}
+
+#menuDiv img {
+	border: none;
+}
+
+#menuDiv a {
+	border: none;
+}
+
+#outerContentTopDiv {
+	width: 960px;
+	height: 24px;
+	background: url('images/static/topp.png');
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+
+#outerContentDiv {
+	width: 960px;
+	background: url('images/static/mitt.png');
+	background-repeat: repeat-y;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#outerContentBottomDiv {
+	width: 960px;
+	height: 26px;
+	background: url('images/static/botten.png');
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.innerContentDiv {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 0px;
+	text-align: center;
+}
+
+#startDiv {
+	display: none;
+}
+
+#startDiv p {
+	margin-bottom: 0px;
+}
+
+#begagnatDiv {
+	display: none;
+	text-align: left;
+}
+
+.machineRow {
+	width: 850px;
+	height: 80px;
+	padding-bottom: 2px;
+	border-bottom: solid 1px;
+	border-color: grey;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.machinePic {
+	float: left;
+	height: 80px;
+	width: 107px;
+}
+.machineName {
+	float: left;
+	height: 20px;
+	width: 300px;
+	text-align: left;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+.machineName a {
+	text-decoration: none;
+	color: white;
+}
+
+.machineRow:hover {
+	/*background-color: 	#D8D8D8;
+	cursor: pointer;*/
+}
+
+
+#detailMachineDiv {
+	padding-top: 20px;
+	padding-left: 40px;	
+}
+#detailDiv {
+	background-image:url('images/static/background.png');
+	width: 1000px;
+	height: 495px;
+}
+
+#detailInfoName h2 {
+	margin-top: 0px;	
+}
+
+#detailimages {
+	position: relative;
+	height: 450px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#machineImages {
+	overflow:hidden;		
+    	position: absolute;
+   	padding:0;
+    	background:#000;
+	width: 600px;
+	height: 450px;
+	float: left;
+/* 	margin-left: 50px; */
+	z-index: 0;
+}
+
+#prevLink {
+	position: absolute;
+	float: left;
+	margin-top: 225px;
+	height: 56px;
+	width: 30px;
+	background: url('images/static/controls.png');
+	z-index: 3;
+}
+
+#nextLink {
+	position: absolute;
+	float: left;
+	margin-left: 570px;
+	margin-top: 200px;
+	height: 56px;
+	width: 30px;
+	background: url('images/static/controls.png');
+	background-position: -30px 0;
+	z-index: 3;
+}
+
+
+#infoDiv {
+	margin-top: 20px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#closeDetailDiv {
+	padding-top: 18px;
+	height: 25px;
+	width: 1000px;
+	color: white;
+	text-align: center;
+	display: none;
+}
+
+#closeDetailDiv:hover {
+	cursor: pointer;
+	background-color: #383838;
+}
+
+#detailInfoName {
+	text-align: center;
+}
+
+#restDiv {
+	margin-top: 10px;
+}
+
+#omOssDiv {
+	display: none;
+}
+
+#leftMenuOmOssDiv {
+	float: left;
+	/* width: 180px; */
+}
+
+#leftMenuOmOssDiv ul {
+	clear: both;
+	margin: 0px;
+	text-align: left;
+}
+
+#leftMenuOmOssDiv li {
+	margin-top: 5px;
+}
+
+#rightTextOmOssDiv {
+	float: left;
+	width: 700px;
+	text-align: left;
+	border-left: 1px solid;
+	margin-left: 15px;
+	padding-left: 15px;
+}
+
+#innerAboutDivImage {
+	margin-top: 20px;
+}
+
+#innerAboutDivImageLeft {
+	float: left;
+}
+
+#innerAboutDivImageRight {
+	float: right;
+/* 	margin-left: 5px; */
+}
+
+#omOssDivClear {
+	clear: both;
+}
+
+#outerGoogleDiv {
+	width: 700px;
+	height: 400px;
+	display: none;
+}
+
+#googleMap
+{
+	width: 100%;
+	height: 90%;
+}
+
+#leftMenuOmOssDiv a {
+	text-decoration: none;
+	font-family: "Helvetica";
+	font-size: 11pt;
+	color: white;
+}
+
+#innerFinansDiv {
+	display: none;	
+}
+
+.clear {
+	clear: both;
+}
